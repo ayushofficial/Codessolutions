@@ -1,0 +1,29 @@
+string binarytoGray(string binary) {
+    // Write your code below this line.
+    int i,b;
+    string gray;
+    gray=binary;
+    for(i=1;;i++)
+    {
+        if(binary[i]=='\0')
+        {
+                break;
+        }
+        if((binary[i]=='1'&&binary[i-1]=='0')||(binary[i]=='0'&&binary[i-1]=='1'))
+        {
+            gray[i]='1';
+        }
+        else if((binary[i]=='0'&&binary[i-1]=='0')||(binary[i]=='1'&&binary[i-1]=='1'))
+        {
+            gray[i]='0';
+        }
+        else
+        {
+            gray[i]='0';
+        }
+    }
+    return gray;
+}
+
+//users can change data types
+ 
