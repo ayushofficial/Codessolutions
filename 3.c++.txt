@@ -1,0 +1,14 @@
+include<iostream.h>
+#include<conio.h>
+void main()
+{
+int year;
+cout<<“ENTER A YEAR TO CHECK WHETHER”<<endl<<” IT IS LEAP YEAR OR NOT\n”;
+cin>>year;
+if(year%4==0&&year%100!=0)
+cout<<year<<”IS A LEAP YEAR\n”;
+else
+cout<<year<<” IS NOT A LEAP YEAR\n”;
+getche();
+clrscr();
+}

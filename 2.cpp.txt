@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int n,fact=1;
+cout<<” ENTER THE VALUE OF n\n”;
+cin>>n;
+for(int i=2;i<=n;i++)
+{
+fact*=i;
+}
+cout<<“THE FACTORIAL OF ”<<n<<” : “<<fact<<endl;
+getch();
+clrscr();
+}
