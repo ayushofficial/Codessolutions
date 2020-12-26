@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main()
+{
+printf("how are you i am fine what about you this is the first commit i am going to make via the git bash command line structure hope it will work fine it is a important step in my life #charbotlevodkakaammerarojka did it on 26december2020 21:41");
+return 0;
+}
